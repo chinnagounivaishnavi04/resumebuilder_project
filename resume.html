@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Create Your Resume</h1>
+  <form id="resume-form">
+    <h2>Personal Details</h2>
+    <input type="text" id="name" placeholder="Name" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="text" id="phone" placeholder="Phone" required><br>
+
+    <h2>Education</h2>
+    <input type="text" id="institution" placeholder="Institution" required><br>
+    <input type="text" id="degree" placeholder="Degree" required><br>
+    <input type="text" id="start-year" placeholder="Start Year" required><br>
+    <input type="text" id="end-year" placeholder="End Year" required><br>
+
+    <h2>Experience</h2>
+    <input type="text" id="company" placeholder="Company" required><br>
+    <input type="text" id="role" placeholder="Role" required><br>
+    <input type="text" id="exp-start-year" placeholder="Start Year" required><br>
+    <input type="text" id="exp-end-year" placeholder="End Year" required><br>
+    <textarea id="description" placeholder="Description" required></textarea><br>
+
+    <h2>Skills</h2>
+    <input type="text" id="skills" placeholder="Skills (comma separated)" required><br>
+
+    <button type="submit">Create Resume</button>
+  </form>
+
+  <script src="auth.js"></script>
+</body>
+</html>
